@@ -1,0 +1,66 @@
+* {
+    font-family: Karla, "sans-serif";
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1rem;
+    
+    
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    background-color: hsl(218, 22%, 67%);
+    
+}
+
+.container-one {
+    width: 100%;
+    background-color: white;
+    padding: 6%; 
+    font-weight: 700;
+    
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    padding: 4% 4%;
+
+}
+
+.subtitle {
+    color: hsl(71, 73%, 54%);
+    padding: 4% 4%;
+
+
+}
+
+.paragraph-container {
+    font-size: 0.9rem;
+    color: hsl(204, 43%, 93%);
+    padding: 4% 4%;
+    font-weight: 400;
+
+}
+
+.container-two {
+    width: 100%;
+    padding: 6%;
+    background-color: hsl(179, 62%, 43%);
+    padding: 4% 4%;
+
+}
+
+.monthly-title {
+    
+}
+
+.sign-button {
+    
+    width: 80%;
+    background-color: hsl(71, 73%, 54%);
+}
