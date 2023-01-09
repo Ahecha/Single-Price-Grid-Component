@@ -12,8 +12,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    padding: 0 2%;
-    align-items: center;
+    margin: auto;
     width: 75%;
     background-color: hsl(218, 22%, 67%);
     
@@ -50,7 +49,7 @@ h1 {
 
 }
 
-.container-two {
+.monthly-container {
     width: 100%;
     background-color: hsl(179, 62%, 43%);
     padding: 6% 0;
@@ -125,4 +124,47 @@ ul {
 li {
     font-size: 0.8rem;
     padding: 1%;
+}
+
+@media (min-width: 960px) {
+
+    .container {
+        width: 70%;
+    }
+
+
+    .subtitle {
+        padding: 0 4%;
+    }
+
+    .paragraph-container {
+        font-size: 1rem;
+        padding: 2% 15% 2% 4%;
+    }
+
+    .container-two {
+        display: flex;
+    }
+
+    .monthly-container {
+        padding: 6% 3%
+    }
+
+    .whyUs-container {
+        padding: 6% 3%
+    }
+
+    h2 {
+        padding: 0 4%;
+    }
+
+    .full {
+        font-size: 1rem;
+        padding-bottom: 6%;
+    }
+
+    .sign-button {
+        margin: 10% 4%
+    }
+
 }
