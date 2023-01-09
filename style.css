@@ -12,6 +12,7 @@
 .container {
     display: flex;
     flex-direction: column;
+    padding: 0 2%;
     align-items: center;
     width: 75%;
     background-color: hsl(218, 22%, 67%);
@@ -21,7 +22,7 @@
 .container-one {
     width: 100%;
     background-color: white;
-    padding: 6%; 
+    padding: 4% 0;
     font-weight: 700;
     
 }
@@ -29,6 +30,7 @@
 h1 {
     color: hsl(179, 62%, 43%);
     padding: 4% 4%;
+    font-size: 1.3rem;
 
 }
 
@@ -41,26 +43,86 @@ h1 {
 
 .paragraph-container {
     font-size: 0.9rem;
-    color: hsl(204, 43%, 93%);
+    color: hsl(202, 43%, 75%);
     padding: 4% 4%;
     font-weight: 400;
+    line-height: 150%;
 
 }
 
 .container-two {
     width: 100%;
-    padding: 6%;
     background-color: hsl(179, 62%, 43%);
-    padding: 4% 4%;
+    padding: 6% 0;
+     
 
 }
 
 .monthly-title {
-    
+    padding: 0 4%;
+    font-size: 1.2rem;
+    font-weight: 700;
+
 }
 
+.access-container {
+    padding: 0 4%;
+}
+
+.price-container {
+    display: flex;
+    padding: 4% 0 2%;
+
+}
+
+.number-price {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.month {
+    margin: 1.5%;
+    padding-left: 2%;
+    opacity: 0.5;
+
+}
+
+.full {
+    padding-bottom: 10%;
+    font-size: 0.8rem;
+}
+
+
 .sign-button {
-    
-    width: 80%;
+    width: 90%;
+    border: hsl(71, 73%, 54%);
+    border-radius: 5%;
     background-color: hsl(71, 73%, 54%);
+    padding: 4% 0;
+    margin: 2% 4%;
+
+}
+
+.sign-button:hover {
+    opacity: 0.5;
+}
+
+.whyUs-container {
+    width: 100%;
+    background-color: hsl(179, 82%, 52%);
+    padding: 6% 0;
+}
+
+h2 {
+    padding: 3% 4%;
+}
+
+ul {
+    padding: 4% 4%;
+    list-style: none;
+}
+
+li {
+    font-size: 0.8rem;
+    padding: 1%;
 }
